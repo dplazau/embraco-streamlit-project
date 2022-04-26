@@ -1,7 +1,10 @@
-import streamlit
+import streamlit as st
 
-header = streamlit.container()
+header = st.container()
 
 
 with header:
-    streamlit.title("Welcome to our data analysis project: ")
+    st.title("Welcome to our data analysis project: ")
+
+
+st.sidebar.write("Author: Diego Plaza & Edoardo Nervo")
